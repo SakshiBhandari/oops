@@ -1,0 +1,24 @@
+/*The following code stores a set of four numbers in an array named ‘random’, as written in the main method.
+Then, a method printArray is called on this variable, which is expected to print the elements of the array, with each
+number printed in a separate line.
+Complete the code to declare the printArray method.
+Sample input
+There is no input for this program. */
+
+public class ArrayStart {
+    public static void main(String[] args) {
+        int random[ ] = {2, 4, 5, 10};
+        printArray(random);
+    }
+
+    public static void printArray(int[] arr) {
+        // Declaring printArray method here
+        for(int i = 0; i < arr.length; i++){
+            System.out.println(arr[i]);
+        }
+//public static void printArray(int[] arr) {
+//       for(int num : arr) {
+//           System.out.println(num);
+    }
+}
+
